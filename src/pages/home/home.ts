@@ -12,7 +12,7 @@ export class HomePage {
   }
   ionViewWillEnter() {
   // Request permission to use location on iOS
-    this.ibeacon.requestAlwaysAuthorization();
+    // this.ibeacon.requestAlwaysAuthorization();
     // create a new delegate and register it with the native layer
     let delegate = this.ibeacon.Delegate();
 
